@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_highlights"
+            android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="INÍCIO" />
+
+        <item
+            android:id="@+id/nav_my_products"
+            android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="MEUS PRODUTOS" />
+
+        <item
+            android:id="@+id/nav_benefics"
+            android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="BENEFÍCIOS" />
+
+        <!--<item-->
+            <!--android:id="@+id/nav_leaderboards"-->
+            <!--android:icon="@android:drawable/ic_menu_slideshow"-->
+            <!--android:title="MEDALHAS" />-->
+
+        <!--<item-->
+            <!--android:id="@+id/nav_vip_experience"-->
+            <!--android:icon="@android:drawable/ic_menu_slideshow"-->
+            <!--android:title="VIP EXPERIENCE" />-->
+
+        <!--<item-->
+            <!--android:id="@+id/nav_upgrade_samsung"-->
+            <!--android:icon="@android:drawable/ic_menu_slideshow"-->
+            <!--android:title="UPGRADE MY SAMSUNG" />-->
+
+        <!--<item-->
+            <!--android:id="@+id/nav_share_play"-->
+            <!--android:icon="@android:drawable/ic_menu_slideshow"-->
+            <!--android:title="SHARE AND PLAY" />-->
+
+        <item
+            android:id="@+id/nav_live_assistance"
+            android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="ATENDIMENTO" />
+
+        <item
+            android:id="@+id/nav_samsung_store"
+            android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="LOJAS SAMSUNG STORE" />
+
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="CONTA" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="CONFIGURAÇÕES" />
+
+    </group>
+
+</menu>

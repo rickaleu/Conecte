@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Conecte</string>
+    <string name="title_activity_home"></string>
+    <string name="title_fragment_benefits">Benefícios</string>
+    <string name="title_fragment_highlights"></string>
+    <string name="title_fragment_leaderboards">Medalhas</string>
+    <!--<string name="title_fragment_live_assistance">Live Assistance</string>-->
+    <string name="title_fragment_live_assistance">Atendimento</string>
+    <string name="title_fragment_my_products">Meus Produtos</string>
+    <string name="title_fragment_samsung_stores">Lojas Samsung</string>
+    <string name="title_fragment_share_and_play">Share and Play</string>
+    <string name="title_fragment_upgrade_my_samsung">Upgrade my Samsung</string>
+    <string name="title_fragment_vip_experience">VIP Experience</string>
+    <string name="title_fragment_account">Conta</string>
+    <string name="title_fragment_settings">Configurações</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--<string name="title_activity_settings">Configurações</string>-->
+
+    <string name="text_fragment_live_assistance">Se você tem alguma dúvida, sugestão ou comentário a fazer sobre a Samsung e seus produtos, nossa equipe de atendimento está à sua disposição.</string>
+    <string name="more_telephone_fragment_live_assistance">De segunda a Sexta das 08:00 ás 20:00 e Sábado das 09:00 às 15:00.</string>
+
+</resources>

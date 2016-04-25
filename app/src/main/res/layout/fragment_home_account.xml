@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/home_fragment_account_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/home_fragment_account_title_first_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cesar "/>
+
+                <TextView
+                    android:id="@+id/home_fragment_account_title_last_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Ferreira"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cliente desde "/>
+
+                <TextView
+                    android:id="@+id/home_fragment_account_title_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="18/11/2015"/>
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/home_fragment_account_edit_first_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:hint="Cesar" />
+
+            <EditText
+                android:id="@+id/home_fragment_account_edit_last_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ferreira"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/home_fragment_account_button_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:hint="Data de nascimento"/>
+
+                <TextView
+                    android:id="@+id/home_fragment_account_label_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="00/00/0000"/>
+
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/home_fragment_account_radiogroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/radioButton1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Masculino" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Feminino" />
+
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/home_fragment_account_button_cep"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:hint="Buscar CEP"/>
+
+                <TextView
+                    android:id="@+id/home_fragment_account_label_cep"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="04551-010"/>
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/home_fragment_account_edit_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Rua Fidencio Ramos"/>
+
+            <EditText
+                android:id="@+id/home_fragment_account_edit_number"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:hint="302"/>
+
+            <EditText
+                android:id="@+id/home_fragment_account_edit_complement"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="11 andar"/>
+
+            <EditText
+                android:id="@+id/home_fragment_account_edit_neighborhood"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="Vila Olímpia"/>
+
+            <Button
+                android:id="@+id/home_fragment_account_button_edit"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="8dp"
+                android:text="Salvar"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
